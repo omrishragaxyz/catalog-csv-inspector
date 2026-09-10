@@ -51,7 +51,7 @@ Review exceptions and the actual destination's requirements before importing any
 - Formula-like cells starting with `=`, `+`, `-`, or `@` after leading whitespace/control characters are rejected before output. Legitimate identifiers with those prefixes also require another agreed review format.
 - Local checks cannot verify that supplied facts, tax settings, shipping flags, or the chosen mapping are commercially correct. Generated files contain the original input; keep private inputs and deliveries outside any public repository.
 
-Need help preparing a supplier file? [Catalog Cleanup Studio offers a $199 pilot](https://catalog-cleanup-studio.omribe.chatgpt.site), with scope and mapping agreed before payment.
+Need help preparing a supplier file? [Catalog Cleanup Studio offers a $29 starter for up to 50 rows and a $79 pilot for up to 250 rows](https://catalog-cleanup-studio.omribe.chatgpt.site), with scope and mapping agreed before payment.
 
 ## License
 
