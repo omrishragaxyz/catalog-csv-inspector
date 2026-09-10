@@ -1,0 +1,6 @@
+group_id,display_name,maker,option_1_name,option_1_value,option_2_name,option_2_value,item_code,unit_price_usd,ships,taxable,supplier_note
+camp-mug, Camp mug ,Fictional Supply,Color,Slate,Size,Regular,00127,$19.9,TRUE,TRUE,"Supplier-only note, retained"
+camp-mug,Camp mug,Fictional Supply,Color,Slate,Size,Large,00128,24,TRUE,TRUE,Second mug size
+field-bottle,Field bottle,Fictional Supply,Color,Olive,,,00044,12.00,TRUE,TRUE,Keep the leading zeroes in the SKU
+desk-lamp,Desk lamp,Fictional Supply,Color,White,,,00990,,TRUE,TRUE,Ask the supplier for the missing unit price
+field-bottle,Field bottle,Fictional Supply,Color,Olive,,,00044,12.00,TRUE,TRUE,Keep the leading zeroes in the SKU

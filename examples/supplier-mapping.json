@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": "synthetic",
+  "agreementReference": "Fictional supplier rehearsal only; no customer approval or order is represented",
+  "currency": "USD",
+  "fields": [
+    {"target": "Handle", "source": "group_id"},
+    {"target": "Title", "source": "display_name"},
+    {"target": "Vendor", "source": "maker"},
+    {"target": "Option1 Name", "source": "option_1_name"},
+    {"target": "Option1 Value", "source": "option_1_value"},
+    {"target": "Option2 Name", "source": "option_2_name"},
+    {"target": "Option2 Value", "source": "option_2_value"},
+    {"target": "Option3 Name", "constant": ""},
+    {"target": "Option3 Value", "constant": ""},
+    {"target": "Variant SKU", "source": "item_code"},
+    {"target": "Variant Price", "source": "unit_price_usd"},
+    {"target": "Variant Inventory Policy", "constant": "deny"},
+    {"target": "Variant Fulfillment Service", "constant": "manual"},
+    {"target": "Variant Requires Shipping", "source": "ships"},
+    {"target": "Variant Taxable", "source": "taxable"},
+    {"target": "Published", "constant": "FALSE"},
+    {"target": "Status", "constant": "draft"}
+  ],
+  "retainOnly": [
+    {"source": "supplier_note", "reason": "Supplier commentary is retained verbatim in input-original.csv and excluded from the product import"}
+  ]
+}

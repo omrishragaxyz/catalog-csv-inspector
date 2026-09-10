@@ -1,0 +1,4 @@
+example-output/
+node_modules/
+.env
+.env.*
